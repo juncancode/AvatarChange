@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assessment 2 - Avatar creator</title>
+    <link type="text/css" rel=stylesheet href="preview.css">
+    <link type="text/css" rel=stylesheet href="controls.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  
+  <body>
+    <div id="preview">
+      <img id="hair" class="items" src="img/hair1.png" />
+      <img id="eyes" class="items" src="img/eyes1.png" />
+      <img id="nose" class="items" src="img/nose1.png" />
+      <img id="mouth" class="items" src="img/mouth1.png" />
+    </div>
+    <div id="ctrl">
+        <input type="range" min="0" max="70" value="60" class="slider" id="range1">
+        <input type="range" min="0" max="40" value="20" class="slider" id="range2">
+        <input type="range" min="0" max="30" value="20" class="slider" id="range3">
+        <input type="range" min="0" max="35" value="20" class="slider" id="range4">
+        <input id="color" type="color">
+    </div>
+    <div id="ctrl2">
+        <button id="range" value="Range" type="button">Range</button>    
+        <button id="number" value="Number" type="button">Number</button>
+        <button id="random" value="Random" type="button">Random</button>
+        <button id="plus" value="+" type="button">+</button> <span>|</span>
+        <button id="auto" type="button">Auto Random Create</button>
+        <button id="stop" type="button">Stop Auto Create</button>
+    </div>
+    <div id=display></div>  
+      
+      <script src="controls.js"></script>
+      <script src="preview.js"></script>
+  </body>
+</html>

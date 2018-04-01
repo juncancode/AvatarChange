@@ -1,0 +1,23 @@
+#ctrl .slider{
+    width:50px;
+}
+
+/*  Styling buttons */
+#ctrl2 #number {
+    background-color:#000;
+    color:white;
+}
+
+#ctrl2 #random {
+    background-color:hotpink;
+}
+
+#ctrl2 #plus {
+    background-color:rgb(128,128,128);
+    color:white;
+}
+
+/* Gap betweeen Ctrls */
+#ctrl2 {
+    margin-top:10px;
+}
